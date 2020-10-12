@@ -1,0 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+
+    /* font-style: "Lato"; */
+    font-family:  "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+
+    color: white;
+}
