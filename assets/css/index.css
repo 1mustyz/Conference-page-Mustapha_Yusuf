@@ -2,6 +2,8 @@
     min-height: 30rem;
     border: 1px solid #293F50;
     background-color: #293F50;
+    margin-bottom: 4rem;
+
 }
 
 .header-nav {
@@ -90,4 +92,61 @@
 .register-btn:hover{
     background-color: white;
     color: black;
+}
+
+/* main section */
+.main {
+    /* border: 1px solid black; */
+    width: 55%;
+    margin: auto;
+    display: flex;
+    height: 20rem;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.pic {
+    width: 17rem;
+    height: 11rem;
+    border-radius: 0.3rem;
+}
+
+.pic-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pic-section > * {
+    width: 17rem;
+    color: #888888;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* footer section */
+
+.footer {
+    height: 7rem;
+    background-color: #293F50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+
+.footer-links-collection {
+    /* border: 1px solid black; */
+    flex-basis: 17rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links:hover{
+    color: #648880;
+
+}
+
+.title {
+    font-size: 1.4rem;
 }
