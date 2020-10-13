@@ -77,42 +77,110 @@
     color: #888888;
 }
 
-/* main section */
-
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.maps {
     /* border: 1px solid black; */
+    width: 58%;
+    margin: auto;
+    height: 30rem;
+
     display: flex;
     justify-content: space-between;
-    width: 52%;
-    margin-bottom: 5rem;
 }
 
-.map-frame {
-    height: 20rem;
-    width: 30rem;
-}
-
-.map-desc {
+.main-text {
     /* border: 1px solid black; */
+    flex-basis: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    max-height: 10rem;
-    max-width: 12rem;
+    justify-content: space-between;
+    height: 19rem;
+}
+
+.big-font {
+    font-size: 1.5rem;
+}
+.random-margin {
+    margin-bottom: 0.5rem;
+}
+.list >li {
+    list-style-type: square;
+    margin-left: 1rem;
 
 }
 
-.map-desc > h2 {
-    color: #648880;
-}
-.map-desc > p{
+.faded  {
     color: #888888;
 }
 
- 
+.faded-color {
+    color: #648880 ;
+}
+
+.form {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-between;
+    height: 25rem;
+    
+}
+
+.form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form > div > label {
+    margin-bottom: 0.5rem;
+}
+
+.three-input {
+    padding: 0.5rem;
+    color: black;
+}
+
+.short-width {
+    width: 3rem;
+}
+
+.form > button {
+    align-self: flex-start;
+    padding: 0.8rem;
+    width: 9rem;
+    background-color: #648880;
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+
+.form > button:hover {
+    opacity: 0.7;
+}
+
+/* footer section */
+
+.footer {
+    height: 7rem;
+    background-color: #293F50;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+
+.footer-links-collection {
+    /* border: 1px solid black; */
+    flex-basis: 17rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-links:hover{
+    color: #648880;
+
+}
+
+.title {
+    font-size: 1.4rem;
+}
