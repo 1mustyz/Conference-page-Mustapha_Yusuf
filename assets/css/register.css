@@ -138,6 +138,11 @@
 .three-input {
     padding: 0.5rem;
     color: black;
+    transition: transform 0.3s;
+}
+
+.three-input:hover {
+    transform: scale(1.1,1.1);
 }
 
 .short-width {
