@@ -121,7 +121,6 @@
     color: #888888;
 }
 
-
 /* phone view */
 
 @media screen and (max-width:650px  ){
@@ -133,8 +132,6 @@
         margin-top: 0;
 
     }
-
-    
 
     .hidden {
         display: none;

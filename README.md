@@ -12,4 +12,4 @@
 ![demo photo](./overview.png)        
 
 ## live demo
-[click for live demo](https://raw.githack.com/1mustyz/Conference-page-Mustapha_Yusuf/form-action/home/index.html)
+[click for live demo](https://raw.githack.com/1mustyz/Conference-page-Mustapha_Yusuf/main/home/index.html)
